@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab_3_Problem_1 {
+public class VehicleFuelMetrics {
     public static void main(String[] args) {
         double fuelEfficiency;
         double fuelPrice;

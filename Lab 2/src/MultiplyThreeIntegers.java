@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab_2_Problem_1 {
+public class MultiplyThreeIntegers {
 
     public static void main(String[] args) {
         int Num1, Num2, Num3;
