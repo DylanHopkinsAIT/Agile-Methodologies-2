@@ -34,7 +34,7 @@ public class Lab_3_Problem_1 {
                     System.out.println("Cost to drive vehicle per 100km: " +costPer100KM +"euro per 100 KM");
                     System.out.println("Range of vehicle in kilometres based on tank capacity: " + tankRange + "KM");
                 }else {
-                    throw new IllegalArgumentException("Please enter positive numbers only");
+                    throw new IllegalArgumentException("Please enter positive numbers only. ");
                 }
             }catch (IllegalArgumentException e){
                 System.out.println(e.getMessage());
