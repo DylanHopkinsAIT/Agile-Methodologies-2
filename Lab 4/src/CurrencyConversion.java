@@ -1,6 +1,5 @@
 public class CurrencyConversion {
 
-
     public double ConvertCurrency(double usdAmount, double conversionRate){
 
         try{
@@ -8,7 +7,7 @@ public class CurrencyConversion {
                 return usdAmount * conversionRate;
             }
             else{
-                throw new IllegalArgumentException("Please only enter positive number values");
+                throw new IllegalArgumentException("Please only enter positive number values...");
             }
 
         }catch (Exception e){
